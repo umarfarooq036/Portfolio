@@ -43,9 +43,7 @@
   padding: 0px;
   max-width: 1400px !important;
 }
-.sections {
-  /* padding-top: -100px; */
-}
+
 .main_intro {
   display: flex;
   justify-content: space-between;
@@ -97,8 +95,7 @@
 .carousel-item {
   color: rgba(0, 0, 0, 0.2);
 }
-p[id="para one"] {
-}
+
 .cards {
   padding-top: 10%;
 }
@@ -134,4 +131,9 @@ p[id="para one"] {
   /* padding: 10px; */
   opacity: 0.6;
 }
-
+.col-6{
+    width: 30%;
+}
+#row-g2{
+    justify-content: center;
+}
