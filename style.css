@@ -46,7 +46,7 @@
 
 .main_intro {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 100px;
   /* background: url(bkg.jpg);
   background-size: cover;
@@ -60,11 +60,11 @@
   height: 400px;
   color: #fafcfe;
   padding: 50px;
-  margin-left: 15%;
+  margin-left: 8%;
   align-self: center;
   align-content: center;
   align-items: center;
-  padding-top: -100px;
+  /* padding-top: -100px; */
 }
 
 .content > .title {
@@ -83,7 +83,6 @@
   max-width: 400px;
   height: auto;
   right: 0;
-  /* position: sticky ; */
   bottom: 1rem;
   align-self: flex-end;
 }
@@ -97,7 +96,7 @@
 }
 
 .cards {
-  padding-top: 10%;
+  /* padding-top: 5%; */
 }
 .two-cards {
   display: flex;
@@ -105,10 +104,15 @@
   gap: 100px;
   padding-bottom: 50px;
 }
+
+#skills{
+    padding-top: 10%;
+}
 .section-title {
   color: whitesmoke;
   /* left: 30%; */
-  margin-left: 20%;
+  padding-left: 18%;
+  padding-top: 10%;
 }
 .card1 {
   width: 200px;
@@ -123,6 +127,22 @@
   border-image-source: linear-gradient(to bottom, #8042eb, #cb56a0);
   padding: 20px;
 }
+.last-card1 {
+  width: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to bottom, #8042eb, #cb56a0);
+  padding: 20px;
+}
+.last-card1 .card-title{
+    padding: 6px;
+}
 .card-title {
   padding: 20px 0px;
 }
@@ -131,9 +151,29 @@
   /* padding: 10px; */
   opacity: 0.6;
 }
+.last-card1 .card-description {
+    width: 145px;
+    /* color: grey; */
+    /* padding: 10px; */
+    opacity: 0.6;
+  }
 .col-6{
     width: 30%;
 }
 #row-g2{
     justify-content: center;
+}
+.progress-div{
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 500px;
+}
+.progress{
+    margin-bottom: 20px;
+}
+.progress-name{
+    color: white;
+}
+.progress-bar-status{
+    /* display: flex; */
 }
